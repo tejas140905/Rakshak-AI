@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshak AI - Medical Help</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .welcome-message {
+            color: #e63946;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Tejas ka Personal Welcome Message -->
+        <div class="welcome-message">
+            👋 <strong>Tejas</strong> welcomes you to <span style="color:#457b9d">Rakshak-Medical AI</span>
+        </div>
+        
+        <h1>🩺 Medical Assistance</h1>
+        <div id="chatbox"></div>
+        
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="अपनी तकलीफ बताएं...">
+            <button onclick="processInput()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
